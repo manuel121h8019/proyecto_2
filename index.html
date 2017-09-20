@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>Curriculum</title><!--titulo que se mostrara en la pestaña del navegador-->
+<link rel="stylesheet" href="css/style.css"><!--estilo de la pagina web-->
+<link rel="stylesheet" href="css/stylemenu.css"><!--estilo del menu-->
+<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css"><!--fuente de los iconos-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--recursos css de bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"><!--recursos js de bootstrap-->
+</head>
+
+<body><!--cuerpo de la pagina-->
+<nav id="menu"><!--Menu de navegacion-->
+  <h1 id="sitename">MySite</h1>
+  <ul><!--el menu se hace con una lista-->
+    <li class="active"><a href="#section-1">Datos Personales</a></li> <!--opcion 1 se hara referencia a la seccion que corresponda-->
+    <li><a href="#section-2">Estudios</a></li><!--opcion 2 se hara referencia a la seccion que corresponda-->
+    <li><a href="#section-3">Experiencia Laboral</a></li><!--opcion 3 se hara referencia a la seccion que corresponda-->
+  </ul>
+</nav><!--fin del menu de navegacion-->
+
+<body class="onepage"><!-- este es un subcuerpo de la pagina-->
+<section class="section vertical" id="section-1"><!--seccion 1, esta pagina se manejara por secciones-->
+  <div ><!--esta es la caja que contiene la seccion 1-->
+    <h2> <i class="fa fa-user fa-5x" aria-hidden="true"></i> Datos Personales</h2> <!--agragamos un icono de fuente y un titulo de la seccion-->
+    <br>
+    <div id="caja1"> <!--esta caja contendra los datos personales y contendra un tabla para organizar los datos -->
+      <table id="tabla1" style="align-content: center" width="100%" ><!--inicio de la tabla de los datos-->
+        <tr>
+          <td width="15%"><img id="foto" src="Media/20150822_112355%20copia.jpg"><!--en esta parte estamos aragando una foto de perfil--></td>
+          <td width="85%"></td>
+        </tr>
+        <tr>
+        <td  colspan="2"><h3>Manuel Alberto Villegas Jiménez </h3></td>
+        </tr>
+        <tr>
+          <th>Edad: </th>
+          <td>24 años</td>
+        </tr>
+        <tr>
+          <th>Dirección: </th>
+          <td>Col. San Jose, Calle Miguel Higalgo S/N, <br>
+            Villa luis Gil Pérez Centro, Tabasco, C.P. #86280 </td>
+        </tr>
+        <tr>
+          <th>Telefono/Celular:</th>
+          <td>+52 993 373 86 76</td>
+        </tr>
+        <tr>
+          <th>Correo Electronico:</th>
+          <td>villegasmanuel31@gmail.com</td>
+        </tr>
+      </table><!--fin de la tabla-->
+    </div><!--fin de la caja que contuene la tabla-->
+  </div><!--aqui termina la caja de la seccion 1-->
+</section><!--fin de la seccion 1-->
+	
+<section class="section vertical" id="section-2"><!--seccion 2-->
+  <div><!--esta es la caja que contiene la seccion 2-->
+    <h2><i class="fa fa-graduation-cap fa-5x" aria-hidden="true"> </i>Estudios</h2><!--agragamos un icono de fuente y un titulo de la seccion-->
+      <br>
+      <div id="caja2"><!--esta caja contendra los datos de estudios y contendra un tabla para organizar los datos -->
+    <table id="tabla2" width="100%" ><!--inicio de la tabla de los datos-->
+        <tr>
+          <th width="25%">Escuela Secundaria Tecnica 30</th>
+          <td width="75%">Capacitacion en Dibujo Tecnico<br>
+              (2005-2008)
+          </td>
+        </tr>
+        <tr>
+          <th>Colegio de bachilleres no. 33: </th>
+          <td>Capacitacion en Administracion de Empresas<br>
+           (2008-2011)
+          </td>
+        </tr>
+        <tr>
+          <th>Universidad Juarez Autonoma de Tabasco:</th>
+          <td>Licenciatura en Sistemas Computacionales<br>
+              (2011-2017)
+          </td>
+        </tr>
+      </table><!--fin de la tabla-->
+    </div><!--fin de la caja que contuene la tabla-->
+  </div><!--fin de la caja que contiene la seccion 2-->
+</section><!--fin de la seccion 2-->
+	
+<section class="section vertical" id="section-3"><!--seccion 3-->
+  <div><!--esta es la caja que contiene la seccion 3-->
+    <h2><i class="fa fa-briefcase fa-5x" aria-hidden="true"></i> Experiencia Laboral</h2><!--agragamos un icono de fuente y un titulo de la seccion-->
+      <br>
+     <br>
+      <div id="caja3"><!--esta caja contendra los datos de experiencia laboral y contendra un tabla para organizar los datos -->
+    <table id="tabla3" width="100%" ><!--inicio de la tabla de los datos-->
+        <tr>
+          <th width="25%">Impulso Digital</th>
+          <td width="75%">Diseño Grafico y Serigrafia<br>
+              (Diseñador Grafico 2009-2010)
+          </td>
+        </tr>
+        <tr>
+          <th>Toshiba Impresoras y Copiadoras</th>
+          <td>Mantenimiento <br>
+           (Tecnico en mantenimiento 2011-2012)
+          </td>
+        </tr>
+        <tr>
+          <th>Estudio Villegas</th>
+          <td>Fotografia y Video Filmaciones<br>
+              (Editor de fotografia 2016-2017)
+          </td>
+        </tr>
+      </table><!--fin de la tabla-->
+    </div><!--fin de la caja que contiene la seccion 3-->
+  </div><!--fin de la caja que contiene la seccion 3-->
+</section><!--fin de la seccion 3-->
+</body><!-- fin del subcuerpo de la pagina-->
+	
+<!-- estos dos script son los recursos de nuetra pagina-->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
+<script src="js/index.js"></script>
+
+</body><!-- fin cuerpo de la pagina-->
+</html>
